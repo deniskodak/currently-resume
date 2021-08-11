@@ -1,0 +1,37 @@
+@import '../../styles/shared';
+
+.header {
+    height: 324px;
+    background-color: $primary-bg;
+
+    .container {
+
+        padding-top: 116px;
+        padding-bottom: 35px;
+        padding: 115px 220px 35px 458px;
+    }
+}
+
+
+.header__title-container {
+    padding: 30px 28px 30px 97px;
+    width: 602px;
+    border: 2px solid $primary-text;
+    border-radius: 30px;
+}
+
+.header__subtitle {
+    @extend %subtitle;
+    margin-bottom: 16px;
+
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.header__title {
+    @extend %title;
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+}

@@ -1,0 +1,30 @@
+@import '../../styles/shared.scss';
+
+.avatar__box {
+    position: absolute;
+    top: -220px;
+    left: 141px;
+
+    width: 365px;
+    height: 507px;
+    border: 2px solid $primary-text;
+    border-radius: 30px;
+
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 16px;
+        left: -12px;
+
+        width: 358px;
+        height: 471px;
+
+        background-image: url(./avatar.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 85% 50%;
+        border-radius: 30px;
+    }
+}

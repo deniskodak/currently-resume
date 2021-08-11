@@ -1,0 +1,15 @@
+@import './colors';
+
+%title {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: $primary-text;
+}
+
+%subtitle {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: $primary-text;
+}
