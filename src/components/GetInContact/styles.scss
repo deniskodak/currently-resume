@@ -47,6 +47,16 @@
     }
 }
 
+.social__contacts-list {
+    display: flex;
+}
+
+.social__contacts-item {
+    &:not(:last-child) {
+        margin-right: 25px;
+    }
+}
+
 .social__link {
     display: flex;
     justify-content: center;

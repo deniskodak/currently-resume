@@ -22,16 +22,32 @@ export default function GetInContact() {
               </a>
             </li>
           </ul>
-          <a
-            className="social__link"
-            href="https://www.linkedin.com/in/denys-kodak-096594197/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <svg className="social__icon" width="40" height="40">
-              <use href={sprite + "#icon-linkedin"}></use>
-            </svg>
-          </a>
+          <ul className="social__contacts-list">
+            <li className="social__contacts-item">
+              <a
+                className="social__link"
+                href="https://www.linkedin.com/in/denys-kodak-096594197/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg className="social__icon" width="40" height="40">
+                  <use href={sprite + "#icon-linkedin"}></use>
+                </svg>
+              </a>
+            </li>
+            <li className="social__contacts-item">
+              <a
+                className="social__link"
+                href="https://t.me/kodak_hi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg className="social__icon" width="40" height="40">
+                  <use href={sprite + "#icon-telegram"}></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
