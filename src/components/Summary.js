@@ -6,8 +6,8 @@ export default function Summary() {
       <h3 className="title">Summary</h3>
       <p className="text">
         Junior front-end developer. At the moment, I have half a year of
-        experience in the implementation of non-commercial projects.I was in
-        school I wanted to became a programmer, but then chosen a profession
+        experience in the implementation of non-commercial projects. When I was
+        in school I wanted to became a programmer, but then chosen a profession
         connected with animals. But now I almost reached my old goal 🚀
       </p>
     </div>

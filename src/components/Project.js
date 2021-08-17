@@ -21,7 +21,9 @@ export default function Projects() {
         </li>
         <li className="projects__item">
           <h4 className="projects__title">React and Node</h4>
-          <p className="projects__text text"></p>
+          <p className="projects__text text">
+            The project is in the process...
+          </p>
         </li>
       </ul>
     </div>

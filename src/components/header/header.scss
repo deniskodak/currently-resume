@@ -14,7 +14,7 @@
 
 
 .header__title-container {
-    padding: 30px 28px 30px 97px;
+    padding: 30px 28px 30px 75px;
     width: 602px;
     border: 2px solid $primary-text;
     border-radius: 30px;
@@ -32,6 +32,8 @@
     @extend %title;
 
     font-weight: 700;
-    font-size: 56px;
-    line-height: 64px;
+    font-size: 64px;
+    line-height: 1.15;
+
+    color: white;
 }

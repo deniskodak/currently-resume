@@ -27,11 +27,13 @@ export default function Info() {
             <SecondaryBox title="Tech Skills" items={techSkills} />
             <SecondaryBox title="Soft Skills" items={softSkills} />
             <SecondaryBox title="Languages" items={languages} />
+            <Education />
           </div>
         </div>
-        <WorkExp />
-        <Education />
-        <Courses />
+        <div className="additional-container">
+          <WorkExp />
+          <Courses />
+        </div>
       </div>
     </section>
   );

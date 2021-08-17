@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Education() {
   return (
-    <div className="education additional-box">
+    <div className="education">
       <h2 className="eduction__title title">Education</h2>
       <h3 className="university__title">
         National university of life and environmental sciences of Ukraine
