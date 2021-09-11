@@ -19,16 +19,13 @@ export default function GetInContact() {
         <li className="contact__item">
           <a
             className="contact__link social"
-            href="mailto:denis.kodak@gmail.com"
+            href="https://www.linkedin.com/in/denys-kodak-096594197"
           >
             https://www.linkedin.com/in/denys-kodak-096594197
           </a>
         </li>
         <li className="contact__item">
-          <a
-            className="contact__link social"
-            href="mailto:denis.kodak@gmail.com"
-          >
+          <a className="contact__link social" href="https://t.me/kodak_hi">
             https://t.me/kodak_hi
           </a>
         </li>
