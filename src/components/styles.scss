@@ -3,14 +3,19 @@
 .section-info {
     padding-top: 59px;
     padding-bottom: 87px;
+    position: relative;
+
+    .container {
+        box-shadow: 6px 48px 37px #0000002b;
+    }
 }
 
 .info__flex-box {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 96px;
     margin-bottom: 45px;
     position: relative;
+    justify-content: space-between;
 
     &::before {
         position: absolute;
@@ -35,30 +40,8 @@
 }
 
 .info__general {
-    width: 469px;
-    margin-right: 138px;
+    width: 770px;
     position: relative;
-
-    // &::before {
-    //     position: absolute;
-    //     content: '';
-    //     display: block;
-    //     background: #864d3f;
-    //     width: 100%;
-    //     height: 3px;
-    //     top: -29px;
-    // }
-
-    // &::after {
-    //     content: '';
-    //     display: block;
-    //     height: 3px;
-    //     width: 100%;
-    //     background: #864d3f;
-    //     position: absolute;
-    //     bottom: 0;
-    //     left: 0;
-    // }
 
     .info__content {
         &:not(:last-child) {
@@ -69,11 +52,12 @@
 }
 
 .info__special {
-    width: 547px;
+    margin-top: 250px;
+    width: 300px;
 
     .info__content {
         &:not(:last-child) {
-            margin-bottom: 20px;
+            margin-bottom: 70px;
         }
     }
 }
@@ -82,10 +66,10 @@
     @extend %title;
 
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 
-    font-size: 36px;
+    font-size: 24px;
     line-height: 41px;
     background: rgba(230, 219, 208, 0.72);
     border-radius: 20px;
@@ -94,7 +78,7 @@
 .text {
     font-family: "Open Sans", sans-serif;
 
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.66;
     color: $secondary-text;
 
@@ -111,12 +95,25 @@
     .projects__title {
 
         margin-bottom: 8px;
-        font-size: 26px;
+        font-size: 20px;
 
     }
 }
 
-.tech-skills__item {
+.projects__link {
+    display: block;
+    color: rgba(19, 19, 137, 0.755);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.projects__technologies {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.skills__item {
     padding-left: 30px;
     position: relative;
 
@@ -125,7 +122,7 @@
     }
 
     &.text {
-        text-transform: uppercase;
+        text-transform: capitalize;
         line-height: 1.55;
     }
 
@@ -148,21 +145,16 @@
     margin-left: 96px;
 }
 
-// .additional-box {
-//     margin-left: 96px;
-// }
-
 .work-experience,
 .education {
     font-family: 'Open Sans',
         sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.2;
 }
 
 .work-experience {
-    width: 469px;
-    margin-right: 138px;
+    padding-bottom: 40px;
 
     .date-period {
         margin-bottom: 15px;
@@ -170,7 +162,7 @@
 }
 
 .work-experience__responsibilities-list {
-    padding-left: 20px;
+    padding-left: 30px;
     list-style: circle;
 }
 
@@ -183,13 +175,14 @@
 .university__title {
     margin-bottom: 10px;
 
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.52;
     color: $primary-text;
 
 }
 
 .profession__title {
+    font-size: 20px;
     margin-bottom: 10px;
     color: $secondary-text;
 }
@@ -197,14 +190,12 @@
 .date-period {
     font-style: italic;
 
-    font-size: 20px;
+    font-size: 18px;
 
     color: rgba(172, 166, 166, 0.851);
 }
 
 .courses {
-    width: 547px;
-    font-size: 20px;
     line-height: 1.32;
     font-family: Open Sans;
 }

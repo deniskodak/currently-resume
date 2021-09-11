@@ -1,43 +1,33 @@
 @import '../../styles/shared.scss';
 
 .contact__info-box {
-    width: 915px;
-
-    margin-right: 209px;
-    margin-left: 126px;
-    padding-top: 40px;
-    padding-right: 148px;
-    padding-left: 410px;
-    padding-bottom: 24px;
-
-    border: 1px solid $primary-text;
-    border-radius: 30px;
+    margin-bottom: 70px
 }
 
 .contact__title {
     @extend %title;
+    margin-bottom: 20px;
 
-    margin-bottom: 31px;
-
-    font-size: 36px;
+    text-align: center;
+    font-size: 22px;
     line-height: 41px;
 }
 
 .contact__list {
-    margin-bottom: 31px;
+    margin-bottom: 5px;
 }
 
 .contact__item {
     &:not(:last-child) {
-        margin-bottom: 13px;
+        margin-bottom: 5px;
     }
 }
 
 .contact__link {
     font-family: 'Open Sans', sans-serif;
 
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 16px;
+    line-height: 1.33;
 
     text-decoration: none;
     color: $secondary-text;
@@ -45,36 +35,8 @@
     &.phone {
         letter-spacing: -0.01em;
     }
-}
 
-.social__contacts-list {
-    display: flex;
-}
-
-.social__contacts-item {
-    &:not(:last-child) {
-        margin-right: 25px;
-    }
-}
-
-.social__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-
-    transition: box-shadow 300ms linear, border-radius 200ms ease-in;
-
-    .social__icon {
-        width: 26px;
-        height: 26px;
-        fill: #2196f3;
-    }
-
-    &:hover,
-    &:focus {
-        border-radius: 50%;
-        box-shadow: 1px 0px 15px #2196f3;
+    &.social {
+        color: rgb(19, 19, 137);
     }
 }

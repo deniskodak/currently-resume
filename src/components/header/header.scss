@@ -1,14 +1,12 @@
 @import '../../styles/shared';
 
 .header {
-    height: 324px;
+    height: 235px;
     background-color: $primary-bg;
 
     .container {
-
-        padding-top: 116px;
-        padding-bottom: 35px;
-        padding: 115px 220px 35px 458px;
+        padding: 26px 0 26px 501px;
+        box-shadow: 6px -30px 37px #0000002b;
     }
 }
 
@@ -26,6 +24,7 @@
 
     font-size: 24px;
     line-height: 33px;
+    font-weight: 700;
 }
 
 .header__title {
