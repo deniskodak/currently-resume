@@ -94,22 +94,22 @@
 
     .projects__title {
 
+        font-weight: 400;
         margin-bottom: 8px;
         font-size: 20px;
-
     }
 }
 
 .projects__link {
     display: block;
-    color: rgba(19, 19, 137, 0.755);
+    color: inherit;
     text-decoration: none;
     font-weight: 400;
 }
 
 .projects__technologies {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -175,14 +175,16 @@
 .university__title {
     margin-bottom: 10px;
 
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 22px;
     line-height: 1.52;
-    color: $primary-text;
+    color: #000;
 
 }
 
 .profession__title {
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 400;
     margin-bottom: 10px;
     color: $secondary-text;
 }
@@ -190,9 +192,7 @@
 .date-period {
     font-style: italic;
 
-    font-size: 18px;
-
-    color: rgba(172, 166, 166, 0.851);
+    font-size: 16px;
 }
 
 .courses {
@@ -207,12 +207,12 @@
 }
 
 .courses__title {
-
-    color: $primary-text;
+    font-weight: 400;
+    color: #000;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 22px;
 
     .courses__name {
-        color: $secondary-text;
+        color: inherit;
     }
 }

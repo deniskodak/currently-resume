@@ -26,8 +26,8 @@ export default function Info() {
   const softSkills = ["creativity", "good communication", "teamwork"];
   const languages = [
     "english - intermediate(B1)",
-    "ukrainian - perfect",
-    "russian - perfect",
+    "ukrainian - native",
+    "russian - native",
   ];
 
   return (

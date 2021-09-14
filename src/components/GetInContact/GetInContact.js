@@ -29,6 +29,14 @@ export default function GetInContact() {
             https://t.me/kodak_hi
           </a>
         </li>
+        <li className="contact__item">
+          <a
+            className="contact__link social"
+            href="https://github.com/deniskodak"
+          >
+            https://github.com/deniskodak
+          </a>
+        </li>
       </ul>
       <span>Kyiv, Ukraine</span>
     </div>

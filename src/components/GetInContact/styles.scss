@@ -30,13 +30,13 @@
     line-height: 1.33;
 
     text-decoration: none;
-    color: $secondary-text;
+    color: #000;
 
     &.phone {
         letter-spacing: -0.01em;
     }
 
     &.social {
-        color: rgb(19, 19, 137);
+        color: inherit;
     }
 }
